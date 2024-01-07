@@ -1,0 +1,36 @@
+html{
+    // va directement a la section suivante
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    background-color: #0c0c1d;
+    color: lightgrey;
+}
+section{
+    height: 100vh;
+    // va directement a la section suivante
+    scroll-snap-align: center;
+}
+
+.course{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .box{
+        height: 100px;
+        width: 100px;
+        background-color: #fff;
+    }
+}
