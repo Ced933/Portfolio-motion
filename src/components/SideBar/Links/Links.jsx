@@ -33,7 +33,6 @@ export default function Links() {
         "Portfolio",
         "Contact",
         "About",
-
     ]
   return (
     <motion.div className='links' variants={variants}>
